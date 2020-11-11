@@ -2,6 +2,11 @@
         min-width: 280px;
         color: #373737!important;
         background-color: #fff!important;
+        top:"0"; position: absolute;
+    }
+    #wrapper::backdrop{
+        background: rgba(255,0,0,.25);
+
     }
     .dashboard .search-area .btn {
         padding: 10px 16px 12px;
